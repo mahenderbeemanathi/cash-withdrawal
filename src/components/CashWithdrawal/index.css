@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg {
+  background-color: #150b3e;
+  height: 100vh;
+  padding: 50px;
+  font-family: roboto;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.symbol {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  margin-right: 25px;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: #d4d2db;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.balance-title {
+  color: #585076;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.balance {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+}
+.type {
+  color: #585076;
+  font-weight: 500;
+}
+.with {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: bold;
+}
+.choose {
+  color: #585076;
+  font-size: 25px;
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
